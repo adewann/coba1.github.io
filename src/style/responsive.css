@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px){
+    .menu {
+        display: none;
+    }
+
+    .menu.aktif{
+        display: inline-block;
+        position: absolute;
+        top: 64px;
+        background: #95D2B3;
+  
+        right: 0;
+        left: 0;
+    }
+    .menu.aktif li a{
+
+        display: inline-block !important;
+        justify-items: center;
+    }
+    .menu.aktif li:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .toggle {
+        display: block;
+    }
+}
